@@ -1,0 +1,29 @@
+.navcolor{
+    background-color: #db0606;
+}
+
+#logo {
+    font-family: 'Lucida Console', cursive;
+    font-size: 5vh;
+    display: block;
+    text-align: left;
+    padding-top: var(--nav-logo-top);
+    margin-top: var(--nav-logo-m-top);
+    padding-left: 1em;
+    text-decoration: none;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: var(--nav-text-stroke);
+    -webkit-text-stroke-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+  }
+  
